@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav li a:hover {
+    color: black;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(171, 0, 0);
+    color: white;
+    transition: 0.5s ease;
+}
+
+header:hover {
+    background-color: rgba(255, 0, 0, 0.642);
+    color: black;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+    margin-top: 16px;
+}
+
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+header h1 {
+    font-size: 30px; 
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;    
+    cursor: pointer;    
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    color: rgb(123, 0, 0);
+}
+
+.row {
+    color: rgb(92, 0, 0);
+}
+
+a.btn {
+    display: block;
+}
+
+.post {
+    margin-bottom: 24px;
+}
+
+.mobi {
+    border-radius: 10px;
+}
+
+.lemon {
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.lemon:hover{
+    background-color: rgba(255, 168, 168, 0.578);
+}
+
+.imagem {
+    max-width: 100%;
+}
+
+.mobi {
+    max-width: 100%;
+}
+
+.some {
+    max-width: 50%;
+    margin-right: 32px;
+    border-radius: 9px;
+    margin-top: 16px;
+}
+
+.descript {
+    color: rgb(76, 0, 0);
+}
+
+.linha-azul {
+    border-bottom: 2px solid rgb(191, 0, 0); 
+}
+
+.footer {
+    padding: 16px 0;
+    background-color: rgb(171, 0, 0);
+    transition: 0.5s ease;
+    margin: auto;
+}
+.footer:hover {
+    background-color: rgba(255, 0, 0, 0.642);
+    color: black;
+}
+
+h2, .mobi {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: normal;
+        display: block;
+    }
+    
+    header nav li {
+        display: block;
+        margin-left: 16px;
+        font-size: 16px;
+    }
+    
+    header nav li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    header nav li a:hover {
+        color: black;
+    }
+    
+    header {
+        padding: 16px 0;
+        background-color: rgb(171, 0, 0);
+        color: white;
+        transition: 0.5s ease;
+    }
+    
+    header:hover {
+        background-color: rgba(255, 0, 0, 0.642);
+        color: black;
+    }
+    .container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    header h1,
+    section h2 {
+        font-weight: normal;
+        margin-top: 16px;
+    }
+    
+    
+    header .container,
+    section .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }  
+    
+    header h1 {
+        font-size: 30px; 
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;    
+        cursor: pointer;   
+    }
+    
+    section .container {
+        align-items: flex-start;
+        display: block;
+    }
+    
+    section {
+        color: rgb(123, 0, 0);
+    }
+    
+    .row {
+        color: rgb(92, 0, 0);
+    }
+    
+    a.btn {
+        display: block;
+    }
+    
+    .post {
+        margin-bottom: 24px;
+    }
+    
+    .mobi {
+        border-radius: 10px;
+    }
+    
+    .lemon {
+        cursor: pointer;
+        transition: 0.7s ease;
+    }
+    
+    .lemon:hover{
+        background-color: rgba(255, 168, 168, 0.578);
+    }
+    
+    .imagem {
+        max-width: 100%;
+    }
+    
+    .mobi {
+        max-width: 100%;
+    }
+    
+    .some {
+        max-width: 70%;
+        border-radius: 9px;
+        margin-top: 16px;
+        align-items: center;
+        margin-left: 15%;
+    }
+    
+
+
+    .descript {
+        color: rgb(76, 0, 0);
+    }
+    
+    .linha-azul {
+        border-bottom: 2px solid rgb(191, 0, 0); 
+    }
+    
+    .footer {
+        padding: 16px 0;
+        background-color: rgb(171, 0, 0);
+        transition: 0.5s ease;
+        margin: auto;
+    }
+    .footer:hover {
+        background-color: rgba(255, 0, 0, 0.642);
+        color: black;
+    }
+    
+    h2, .mobi {
+        cursor: pointer;
+    }
+
+    .form {
+        display: block;
+    }
+}
